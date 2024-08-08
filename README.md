@@ -9,5 +9,6 @@ Debido a que utilizo cdns no es necesario ninguna instalacion, solo clonar el re
 Luego con el repositorio ya clonado abrir el archivo index.html en cualquier navegador.
 
 Ademas el challenge esta deployado en GitHub Pages y Netlify:
-<s> GitHub Pages:</s> https://lucaasn.github.io/Challenge_A-Teamwork_Insurezella/ <br />
-<s> Netlify:</s> https://challenge-a-teamwork-insurezella.netlify.app/
+<u><b>GitHub Pages:<b/></u> https://lucaasn.github.io/Challenge_A-Teamwork_Insurezella/ 
+
+<u><b>Netlify:<b/></u> https://challenge-a-teamwork-insurezella.netlify.app/
