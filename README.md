@@ -6,7 +6,7 @@ Debido a que utilizo cdns no es necesario ninguna instalacion, solo clonar el re
 
 `git clone https://github.com/LucaasN/Challenge_A-Teamwork_Insurezella.git` 
 
-Luego con el repositorio ya clonado abrir el archivo index.html en cualquier navegador.
+Luego con el repositorio ya clonado simplemente abrir el archivo index.html en cualquier navegador.
 
 Ademas el challenge esta deployado en GitHub Pages y Netlify:
 
