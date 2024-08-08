@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif
+}
+
+.navbar-banner{
+    width: 100%;
+    background-color: #2A6EE5;
+    color: white;
+}
+
+.icon-email,
+.icon-phone{
+    width: 14px;
+}
+
+.title-navbar{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.info-navbar-blue{
+    font-size: 0.6rem;
+}
+
+.fw-600,
+.nav-link{
+    font-weight: 600;
+}
+
+.nav-link.active{
+    color: #2A6EE5 !important;
+    border-bottom: 1px solid #2A6EE5 !important;
+}
+
+.section-hero-desktop {
+    background-image: url('../assets/hero-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #E3DDDF;
+    display: none;
+}
+
+.section-hero-desktop h2{
+    color: #005CFF;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.section-hero-desktop p{
+    color: #797A79;
+}
+
+.btn-hero{
+    font-weight: 600;
+    background-color: #00B2FF;
+    border: 1px solid #00B2FF;
+    border-radius: 2rem;
+    padding: .5rem 1.5rem;
+}
+
+.section-hero-mobile{
+    background-image: url('../assets/family-together-xxl.jpg');
+    background-size: cover;
+    color: white;
+    text-shadow: 4px 4px 11px rgba(0, 0, 0, 0.9);
+}
+
+.section-hero-mobile h2{
+    font-weight: 900;
+}
+
+.section-navigate-mobile h2,
+.section-custom-plans-mobile h2{
+    font-weight: 900;
+    color: #2A3143;
+}
+
+.section-navigate-mobile h2 span,
+.section-custom-plans-mobile h2 span{
+    color: #4C76F5;
+}
+
+.section-navigate-mobile p,
+.section-custom-plans-mobile p{
+    color: #797A79;
+}
+
+.col-cards-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-custom-plan{
+    border: none;
+    border-radius: 0;
+    margin-bottom: 1.5rem;
+    max-width: 16rem;
+    box-shadow: 0px 10px 10px 0px rgba(178, 197, 255, 0.9);
+}
+
+.card-custom-plan .badge{
+    margin-top: -2rem;
+    background-color: #083791 !important;
+}
+
+.card-custom-plan h5 label{
+    font-weight: 600;
+}
+
+.card-custom-plan .link{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.section-undestand-policy-mobile {
+    background-color: #4E77F5;
+}
+
+.section-undestand-policy-mobile h4{
+    font-weight: 900;
+    color: #1D326F;
+    margin-bottom: 2rem;
+}
+
+.section-undestand-policy-mobile  p{
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.section-undestand-policy-mobile .btn-primary{
+    background-color: #FFFFFF;
+    color: #4E77F5;
+    font-weight: 700;
+    padding: .25rem 1.5rem;
+}
+
+.section-affordable-plan-mobile{
+    background-color: #4E77F5;
+    color: white;
+}
+
+.section-affordable-plan-mobile h2{
+    color: #2A3143;
+    font-weight: 900;
+}
+
+.section-reviews-mobile h2{
+    position: relative;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.section-reviews-mobile h2 span{
+    color: #4E77F5;
+}
+
+.section-reviews-mobile h2::after {
+    content: '';
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 3px;
+    background-color: #4E77F5;
+}
+
+.section-reviews-mobile p{
+    color: #797A79;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.card-review-carousel{
+    border: none;
+    box-shadow: 0px 5px 10px 0px rgba(178, 197, 255, 0.9);
+}
+
+.card-review-carousel p{
+    font-style: italic;
+    font-weight: 600;
+}
+
+.review-user i{
+    color: #797A79;
+}
+
+#carousel-reviews .carousel-control-prev-icon,
+#carousel-reviews .carousel-control-next-icon {
+  display: none;
+}
+
+#carousel-reviews .custom-carousel-control-prev,
+#carousel-reviews .custom-carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    z-index: 1;
+    width: 3rem; 
+    height: 3rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#carousel-reviews .custom-carousel-control-prev {
+  left: 0;
+}
+
+#carousel-reviews .custom-carousel-control-next {
+  right: 0;
+}
+
+#carousel-reviews .custom-carousel-control-prev::after,
+#carousel-reviews .custom-carousel-control-next::after {
+  content: ''; 
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+#carousel-reviews .custom-carousel-control-prev::after {
+    border-width: 1.5rem 0.5rem 1.5rem 0;
+    border-color: transparent #2E77F9 transparent transparent;
+}
+
+#carousel-reviews .custom-carousel-control-next::after {
+    border-width: 1.5rem 0 1.5rem 0.5rem;
+    border-color: transparent transparent transparent #2E77F9;
+}
+
+.section-insurance-desktop,
+.section-pick-insurance,
+.section-help,
+.footer-desktop,
+.section-cards-help-desktop {
+    display: none;
+}
+
+.card-insurance{
+    min-width: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    -webkit-box-shadow: 0px 9px 10px 10px rgba(178,197,255,0.9);
+    -moz-box-shadow: 0px 9px 10px 10px rgba(178,197,255,0.9);
+    box-shadow: 0px 9px 10px 5px rgba(178,197,255,0.9);
+}
+
+.card-insurance p{
+    text-align: center;
+    color: #151639;
+    font-weight: 700;
+}
+
+.insurance-title{
+    color: #242D42;
+    font-weight: 900;
+}
+
+.insurance-text{
+    color: #797A79;
+}
+
+.insurance-info{
+    color: #0F0000;
+    font-weight: 700;
+}
+
+.section-pick-insurance{
+    background-color: #E9F5FF;
+}
+
+.section-pick-insurance h2{
+    font-weight: 900;
+    text-align: center;
+}
+
+.card-pick-insurance > .card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-pick-insurance label{
+    color: #0084FF;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.card-pick-insurance p{
+    color: #797A79;
+}
+
+.row-cards{
+    display: none;
+}
+
+.card-help{
+    max-width: 20rem;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.card-help img{
+    height: 10rem;
+    object-fit: cover;
+}
+
+.card-help .card-body{
+    display: flex;
+    flex-direction: column;
+    padding: .5rem 1.5rem;
+}
+
+.card-help h5{
+    margin-top: 1.5rem;
+    font-weight: 600;
+}
+
+.card-help p{
+    color: #797A79;
+}
+
+.card-help a{
+    margin-top: auto;
+    text-decoration: none;
+}
+
+.card-footer{
+    color: #121273;
+    border: none;
+    border-radius: 0;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(178,197,255,0.9);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(178,197,255,0.9);
+    box-shadow: 0px 0px 10px 2px rgba(178, 197, 255, 0.9);
+
+}
+
+.footer-banner{
+    display: none;
+    background-color: #2E77F9;
+    padding: 2rem;
+    margin-top: -2rem;
+}
+
+.card-footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-footer-social-media{
+    display: flex;
+    margin-bottom: 0;
+}
+
+.list-footer-social-media li{
+    margin-right: 1rem;
+}
+
+.list-footer-social-media i{
+    color: #121273;
+}
+
+.card-footer h5{
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.list-services li,
+.list-links li{
+    margin-bottom: .5rem;
+}
+
+.list-links li a{
+    text-decoration: none;
+    color: #121273;
+}
+
+.footer-banner-mobile{
+    background-color: #2E77F9;
+    padding: 4rem;
+}
+
+.footer-top-mobile{
+    margin-bottom: -3rem;
+}
+
+.footer-bottom-mobile{
+    margin-top: -3rem;
+    margin-bottom: 5rem;
+}
+
+.cl-white{
+    color: white;
+}
+
+#navbarSupportedContentMobile .nav-link.active{
+    color: white !important;
+}
+
+#carousel-section-help .carousel-indicators [data-bs-target],
+#carousel-section-row-cards .carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #5C76F1;
+}
+
+#carousel-section-row-cards .carousel-indicators{
+    margin-bottom: -3rem;
+}
+
+@media (min-width: 576px) { 
+    .section-hero-mobile,
+    .section-navigate-mobile,
+    .section-undestand-policy-mobile,
+    .section-custom-plans-mobile,
+    .section-reviews-mobile,
+    .section-affordable-plan-mobile{
+        display: none;
+    }
+    .section-hero-desktop,
+    .section-insurance-desktop,
+    .section-pick-insurance,
+    .section-help {
+        display: block;
+    }
+    .section-hero-desktop {
+        height: 60vh;
+    }
+}
+
+@media (min-width: 992px) { 
+    .row-cards,
+    .navbar-white{
+        display: flex !important;
+    }
+    .info-navbar-blue{
+        font-size: 1rem;
+    }
+    .hidden-desktop,
+    .footer-top-mobile,
+    .footer-center-mobile,
+    .footer-bottom-mobile,
+    .section-help-carousel,
+    .section-carousel-row-cards{
+        display: none;
+    }
+    .footer-desktop,
+    .footer-banner,
+    .section-cards-help-desktop {
+        display: block;
+    }
+    .section-hero-desktop{
+        height: 100vh;
+        background-position-x: 14rem;
+    }
+    .card-help{
+        max-width: 22rem;
+    }
+}
