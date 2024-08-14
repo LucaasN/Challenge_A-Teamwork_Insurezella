@@ -16,12 +16,12 @@
 }
 
 .title-navbar{
-    font-size: 1.4rem;
+    font-size: 0.4rem;
     font-weight: 600;
 }
 
 .info-navbar-blue{
-    font-size: 0.6rem;
+    font-size: 0.3rem;
 }
 
 .fw-600,
@@ -441,6 +441,16 @@
     .section-hero-desktop {
         height: 60vh;
     }
+    .title-navbar{
+        font-size: .8rem;
+    }
+    .info-navbar-blue{
+        font-size: 0.5rem;
+    }
+    .navbar-brand-tablet{
+        left: 2.5rem;
+    }
+
 }
 
 @media (min-width: 992px) { 
@@ -470,5 +480,8 @@
     }
     .card-help{
         max-width: 22rem;
+    }
+    .title-navbar{
+        font-size: 1.4rem;
     }
 }
